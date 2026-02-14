@@ -1,4 +1,3 @@
-````verilog
 module timer_top
 (
 	input wire sys_clk,
