@@ -1,4 +1,3 @@
-````verilog
 task run_test();
  
 	begin
