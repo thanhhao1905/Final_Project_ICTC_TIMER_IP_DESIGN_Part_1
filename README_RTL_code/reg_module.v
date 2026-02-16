@@ -200,7 +200,7 @@ module reg_module
 // ==================================================
 // INTERRUPT STATUS REGISTER (data6[0])
 // ==================================================
-	always@(posedge clk or rst_n) begin
+	always@(posedge clk or negedge rst_n) begin
 	if(!rst_n) begin
 		data6[0] <= 1'b0;
 	end else begin
