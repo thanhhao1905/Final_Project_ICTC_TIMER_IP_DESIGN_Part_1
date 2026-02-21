@@ -4,7 +4,7 @@ In the testbench file, I have:
 - Defined all testcase functions for specific Timer functionalities (reset, register read/write, counting modes, interrupt, etc.)
 - Implemented a calling mechanism that allows running **individual testcases** or **multiple testcases simultaneously** to thoroughly verify the RTL module.
 
-You can view the detailed code of each testcase in the [testcase_code](./Testcase_code) folder.
+You can view the detailed code of each testcase in the [Testcase_code](./Testcase_code) folder.
 
 This testbench is written to comprehensively verify the Timer IP module.
 
